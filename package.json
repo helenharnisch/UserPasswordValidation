@@ -1,0 +1,22 @@
+{
+  "name": "libreria_js",
+  "version": "1.0.0",
+  "description": "libreria_js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daniparraguez/libreria_js.git"
+  },
+  "keywords": [
+    "libreria"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/daniparraguez/libreria_js/issues"
+  },
+  "homepage": "https://github.com/daniparraguez/libreria_js#readme"
+}
