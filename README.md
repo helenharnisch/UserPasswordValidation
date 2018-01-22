@@ -32,4 +32,4 @@
 * Dependencias de desarrollo
 * ESLint 4.15.0
 * Dependencias de producción
-* jQuery 3.2.1
+
