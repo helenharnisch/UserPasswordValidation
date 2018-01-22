@@ -1,9 +1,9 @@
-# Librería FormValidation
+# Librería FormValidation 
 
-* FormValidation es una librería para la validación de los campos de formulario por parte del cliente.
-* FormValidation es para verificar que las entradas son del tipo correcto y que estén completas con datos, antes de que
+* FormValidation es una librería para la validación de los campos de formulario por parte del cliente. 
+* FormValidation es para verificar que las entradas son del tipo correcto y que estén completas con datos, antes de que 
   el formulario sea enviado.
-* Los campos de formulario son una tarea de programación necesaria, aunque muchas veces es un proceso molesto.
+* Los campos de formulario son una tarea de programación necesaria, aunque muchas veces es un proceso molesto. 
 * En javascript facilitan la programación y mejora la interfaz del usuario. Esto te ahorrará una tarea importante.
 
 ## Instalación
@@ -14,7 +14,7 @@
 
 * El objetivo central de este curso es construir una librería (library).
 
-* El reto se hará en grupos de dos alumnas y será presentado al final del curso en una demo al resto de la clase.
+* El reto se hará en grupos de dos alumnas y será presentado al final del curso en una demo al resto de la clase. 
 * A lo largo del curso tus instructorxs te guiarán en el proceso así como tus compañeras.
 
 ## Metodología de trabajo
@@ -32,4 +32,6 @@
 * Dependencias de desarrollo
 * ESLint 4.15.0
 * Dependencias de producción
-* jQuery 3.2.1
+
+
+
