@@ -2,9 +2,24 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>prueba</title>
+    <title>FormValidation</title>
   </head>
   <body>
-
+    <form class="" id="formulario" action="">
+      <label for="">Name</label>
+      <input type="text" id="nombre" placeholder="Name">
+      <label for="">E-mail</label>
+      <input type="email" id="email" placeholder="E-mail">
+      <label for="">Phone</label>
+      <input type="phone" id="phone" placeholder="Phone">
+      <input type="submit" value="Submit">
+    </form>
+    <div id="info"></div>
+    <form id="miform" action="" onsubmit="return validarFormulario();">
+      <p>Usuario: <input type="text" id="nombre"></p>
+      <p>Contraseña: <input type="password" id="password"></p>
+      <input type="submit" value="Enviar">
+    </form>
+    <script type="text/javascript"></script>
   </body>
 </html>
