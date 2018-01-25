@@ -1,5 +1,5 @@
-function validarNombre() {
-  var usuario = document.getElementById('nombre').value;
+const validarNombre = () => {
+  let usuario = document.getElementById('nombre').value;
 
   if (usuario === null || usuario === '' || usuario.length === 0) {
     alert('Ingrese su nombre!!!');
@@ -12,3 +12,5 @@ function validarNombre() {
 }
 
 module.exports = validarNombre;
+
+
