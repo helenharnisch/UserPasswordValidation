@@ -1,4 +1,4 @@
-const expect = require ('chai').expect;
+const expect = require('chai').expect;
 const name = require('../js/name-app.js');
 describe('Name', function() {
   it('El campo no debe estar vacío', function() {
@@ -7,10 +7,8 @@ describe('Name', function() {
     expect().to.not.equal(null);
   });
 
-  it ('El valor es mayor a tres caracteres', function() {
-    expect().to.have.lengthOf(3)
-
-
+  it('El valor es mayor a tres caracteres', function() {
+    expect(3).to.not.be.below(3);
   });
 
   it('No ingresó valores numéricos', function() {
@@ -22,5 +20,4 @@ describe('Name', function() {
 
 
   });
-
 });
