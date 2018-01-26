@@ -9,6 +9,12 @@ const validarNombre = () => {
     alert('Su nombre tiene que ser mayor o igual a 3 caracteres!!!');
     return false;
   }
+  else if  {
+    alert('Ingrese un nombre válido');
+    return false;
+  }
+
+
 }
 
 module.exports = validarNombre;
