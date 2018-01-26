@@ -12,6 +12,7 @@ describe('Name', function() {
   });
 
   it('No ingresó valores numéricos', function() {
+    expect('string').to.be.a('string');
 
 
   });
@@ -20,4 +21,11 @@ describe('Name', function() {
 
 
   });
+<<<<<<< HEAD
 });
+=======
+
+
+});
+
+>>>>>>> upstream/changesbranch
