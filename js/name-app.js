@@ -16,7 +16,7 @@ const validarNombre = () => {
     document.getElementById('texto').innerHTML = texto;
     return false;
   }
-
+};
 
 
 module.exports = validarNombre;
