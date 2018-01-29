@@ -21,7 +21,11 @@ describe('Name', function() {
 
 
   });
+<<<<<<< HEAD
+});
+=======
 
 
 });
 
+>>>>>>> upstream/changesbranch

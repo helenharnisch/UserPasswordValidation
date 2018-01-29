@@ -1,4 +1,5 @@
-const validarNombre = () => {
+const inputNombre = document.getElementById('sendbtn');
+inputNombre.addEventListener('click', function() {
   let usuario = document.getElementById('nombre').value;
   let texto;
   let expresion = /[a-zA-Z]/;
@@ -16,7 +17,7 @@ const validarNombre = () => {
     document.getElementById('texto').innerHTML = texto;
     return false;
   }
-};
+});
 
 
 module.exports = validarNombre;
