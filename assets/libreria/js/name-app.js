@@ -1,6 +1,6 @@
 'use strict';
 
-  const validarNombre = () => {
+const validarNombre = () => {
   let usuario = document.getElementById('nombre').value;
   let texto;
   let expresion = /[a-zA-Z]/;
@@ -9,7 +9,6 @@
     texto = '<span style= "color:red;">Ingrese su nombre</span>';
     document.getElementById('texto').innerHTML = texto;
     return false;
-
   } else if (usuario.length < 3) {
     texto = 'Su nombre tiene que ser mayor o igual a 3 caracteres';
     document.getElementById('texto').innerHTML = texto;
