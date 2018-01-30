@@ -19,13 +19,6 @@ describe('Name', function() {
 
   it('No ingresó caracteres especiales', function() {
 
-
   });
-<<<<<<< HEAD
-});
-=======
-
-
 });
 
->>>>>>> upstream/changesbranch

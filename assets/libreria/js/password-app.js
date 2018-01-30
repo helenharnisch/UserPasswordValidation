@@ -13,8 +13,13 @@ inputPassword.addEventListener('click', function() {
     document.getElementById('texto2').innerHTML = texto;
     return false;
   } else if (!expresion.test(password)) {
-    texto = 'Ingrese solo caracteres válidos';
+    texto = 'Ingrese solo caracteres válidos (números)';
     document.getElementById('texto2').innerHTML = texto;
     return false;
   }
+  document.getElementById('contraseña').value = '';
+  document.getElementById('texto2').innerHTML = '';
+
 });
+
+module.exports = validarNombre;

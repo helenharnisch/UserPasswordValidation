@@ -1,5 +1,7 @@
+'use strict';
+
 const inputNombre = document.getElementById('sendbtn');
-inputNombre.addEventListener('click', function() {
+inputNombre.addEventListener('click', (validarNombre) => {
   let usuario = document.getElementById('nombre').value;
   let texto;
   let expresion = /[a-zA-Z]/;
@@ -8,6 +10,7 @@ inputNombre.addEventListener('click', function() {
     texto = '<span style= "color:red;">Ingrese su nombre</span>';
     document.getElementById('texto').innerHTML = texto;
     return false;
+
   } else if (usuario.length < 3) {
     texto = 'Su nombre tiene que ser mayor o igual a 3 caracteres';
     document.getElementById('texto').innerHTML = texto;
@@ -17,6 +20,8 @@ inputNombre.addEventListener('click', function() {
     document.getElementById('texto').innerHTML = texto;
     return false;
   }
+  document.getElementById('nombre').value = '';
+  document.getElementById('texto').innerHTML = '';
 });
 
 
