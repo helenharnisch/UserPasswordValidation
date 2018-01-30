@@ -16,6 +16,9 @@ const validarPassword = () => {
     texto = 'Ingrese solo caracteres válidos (números)';
     document.getElementById('texto2').innerHTML = texto;
     return false;
+  } else {
+    document.getElementById('contraseña').value = '';
+    miForm.submit();
   }
   document.getElementById('contraseña').value = '';
   document.getElementById('texto2').innerHTML = '';
