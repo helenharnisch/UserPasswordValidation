@@ -14,12 +14,9 @@ describe('Name', () => {
 
   it('No ingresó valores numéricos', () => {
     expect('string').to.equal('string');
-
-
   });
 
   it('No ingresó caracteres especiales', () => {
 
   });
 });
-
