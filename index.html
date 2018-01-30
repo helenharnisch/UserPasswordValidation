@@ -15,11 +15,11 @@
         <div class="col-xs-12">
           <div class="texto" id="texto"></div>
           <!-- Formulario -->
-          <form class="miForm" onsubmit="return validarNombre()">
+          <form>
             <input type="text" id="nombre" placeholder="Usuario">
             <div class="texto2" id="texto2"></div>
             <input type="password" id="contraseña" placeholder="Contraseña"><br>
-            <input type="submit" value="Enviar" id="sendbtn">
+            <input id="sendbtn" type="button" name="" value="Enviar" onclick= "validarNombre(), validarPassword()">
           </form>
         </div>
       </div>
@@ -45,6 +45,7 @@
       <div class="row text-center">
       </div>
     </div>
+
 <script type="text/javascript" src="assets/libreria/js/name-app.js"></script>
 <script type="text/javascript" src="assets/libreria/js/password-app.js"></script>
   </body>

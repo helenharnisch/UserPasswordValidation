@@ -1,3 +1,5 @@
+'use strict';
+
 const validarNombre = () => {
   let usuario = document.getElementById('nombre').value;
   let texto;
@@ -16,6 +18,8 @@ const validarNombre = () => {
     document.getElementById('texto').innerHTML = texto;
     return false;
   }
+  document.getElementById('nombre').value = '';
+  document.getElementById('texto').innerHTML = '';
 };
 
 

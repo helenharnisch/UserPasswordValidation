@@ -1,5 +1,5 @@
-const inputPassword = document.getElementById('sendbtn');
-inputPassword.addEventListener('click', (validarNombre) => {
+'use strict';
+const validarPassword = () => {
   let password = document.getElementById('contraseña').value;
   let texto;
   let expresion = /[0-9]/;
@@ -13,11 +13,15 @@ inputPassword.addEventListener('click', (validarNombre) => {
     document.getElementById('texto2').innerHTML = texto;
     return false;
   } else if (!expresion.test(password)) {
-    texto = 'Ingrese solo caracteres válidos';
+    texto = 'Ingrese solo caracteres válidos (números)';
     document.getElementById('texto2').innerHTML = texto;
     return false;
   } else {
     document.getElementById('contraseña').value = '';
     miForm.submit();
   }
-});
+  document.getElementById('contraseña').value = '';
+  document.getElementById('texto2').innerHTML = '';
+};
+
+module.exports = validarPassword;
