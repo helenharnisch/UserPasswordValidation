@@ -1,11 +1,10 @@
-const inputNombre = document.getElementById('sendbtn');
-inputNombre.addEventListener('click', function() {
+const validarNombre = () => {
   let usuario = document.getElementById('nombre').value;
   let texto;
   let expresion = /[a-zA-Z]/;
 
   if (usuario === null || usuario === '' || usuario.length === 0) {
-    texto = '<span style= "color:red;">Ingrese su nombre</span>';
+    texto = 'Ingrese su nombre';
     document.getElementById('texto').innerHTML = texto;
     return false;
   } else if (usuario.length < 3) {
@@ -17,7 +16,7 @@ inputNombre.addEventListener('click', function() {
     document.getElementById('texto').innerHTML = texto;
     return false;
   }
-});
+};
 
 
 module.exports = validarNombre;

@@ -2,16 +2,49 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/demo/css/demo.css">
+    <script src="https://use.fontawesome.com/f8bd552b09.js"></script>
     <title>FormValidation</title>
   </head>
   <body>
-    <div id="texto"></div>
-<form name="mi-form">
-    <p>Usuario:<input type="text" id="nombre"></p>
-    <div id="texto2"></div>
-    <p>Contraseña:<input type="password" id="contraseña" ></p>
-    <input id="sendbtn" type="button" name="" value="Enviar">
-  </form>
+    <div class="container text-center">
+      <h1>FormValidation</h1>
+      <div class="form row">
+        <div class="col-xs-12">
+          <div class="texto" id="texto"></div>
+          <!-- Formulario -->
+          <form class="miForm" onsubmit="return validarNombre()">
+            <input type="text" id="nombre" placeholder="Usuario">
+            <div class="texto2" id="texto2"></div>
+            <input type="password" id="contraseña" placeholder="Contraseña"><br>
+            <input type="submit" value="Enviar" id="sendbtn">
+          </form>
+        </div>
+      </div>
+    </div> <!-- Fin container -->
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-xs-12 col-md-4"></div>
+        <div class="col-xs-12 col-md-4">
+          <button type="button" name="button" class="btn btn-default">
+            <i class="fa fa-2x fa-book" aria-hidden="true"></i></button>
+          <button type="button" name="button" class="btn btn-default">
+            <i class="fa fa-2x fa-github" aria-hidden="true"></i></button>
+          <button type="button" name="button" class="btn btn-default">
+            <i class="fa fa-2x fa-cog" aria-hidden="true"></i></button>
+        </div>
+        <div class="col-xs-12 col-md-4"></div>
+      </div>
+    </div>
+    <div class="section container-fuid">
+      <div class="row text-center">
+        <h3>Instalación</h3>
+      </div>
+      <div class="row text-center">
+      </div>
+    </div>
 <script type="text/javascript" src="assets/libreria/js/name-app.js"></script>
 <script type="text/javascript" src="assets/libreria/js/password-app.js"></script>
   </body>

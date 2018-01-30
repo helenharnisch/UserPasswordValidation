@@ -13,19 +13,10 @@ describe('Name', function() {
 
   it('No ingresó valores numéricos', function() {
     expect('string').to.be.a('string');
-
-
   });
 
   it('No ingresó caracteres especiales', function() {
 
 
   });
-<<<<<<< HEAD
 });
-=======
-
-
-});
-
->>>>>>> upstream/changesbranch

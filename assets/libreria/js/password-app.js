@@ -1,11 +1,11 @@
 const inputPassword = document.getElementById('sendbtn');
-inputPassword.addEventListener('click', function() {
+inputPassword.addEventListener('click', (validarNombre) => {
   let password = document.getElementById('contraseña').value;
   let texto;
   let expresion = /[0-9]/;
 
   if (password === null || password === '' || password.length === 0) {
-    texto = '<span style= "color:red;">Ingrese su contraseña</span>';
+    texto = 'Ingrese su contraseña';
     document.getElementById('texto2').innerHTML = texto;
     return false;
   } else if (password.length < 3) {
@@ -16,5 +16,8 @@ inputPassword.addEventListener('click', function() {
     texto = 'Ingrese solo caracteres válidos';
     document.getElementById('texto2').innerHTML = texto;
     return false;
+  } else {
+    document.getElementById('contraseña').value = '';
+    miForm.submit();
   }
 });
