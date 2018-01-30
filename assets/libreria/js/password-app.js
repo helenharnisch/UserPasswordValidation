@@ -1,5 +1,5 @@
-const inputPassword = document.getElementById('sendbtn');
-inputPassword.addEventListener('click', function() {
+'use strict';
+  const validarPassword = () => {
   let password = document.getElementById('contraseña').value;
   let texto;
   let expresion = /[0-9]/;
@@ -20,6 +20,6 @@ inputPassword.addEventListener('click', function() {
   document.getElementById('contraseña').value = '';
   document.getElementById('texto2').innerHTML = '';
 
-});
+};
 
-module.exports = validarNombre;
+module.exports = validarPassword;
