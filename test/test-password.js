@@ -13,8 +13,5 @@ describe('Password', () => {
 
   it('No ingresó letras ni caracteres especiales', () => {
     expect('number').to.equal('number');
-
   });
-
-
 });
