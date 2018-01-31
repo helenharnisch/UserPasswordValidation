@@ -9,44 +9,39 @@
     <title>FormValidation</title>
   </head>
   <body>
-    <div class="container text-center">
-      <h1>FormValidation</h1>
+    <div class="sectionFirst container-fuid text-center">
       <div class="form row">
         <div class="col-xs-12">
-          <div class="texto" id="texto"></div>
           <!-- Formulario -->
           <form>
-            <input type="text" id="nombre" placeholder="Usuario">
+            <h1>FormValidation</h1>
+            <input class="nombre" type="text" id="nombre" placeholder="Usuario">
+            <div class="texto" id="texto"></div>
+            <input class="contraseña" type="password" id="contraseña" placeholder="Contraseña"><br>
             <div class="texto2" id="texto2"></div>
-            <input type="password" id="contraseña" placeholder="Contraseña"><br>
-            <input id="sendbtn" type="button" name="" value="Enviar" onclick= "validarNombre(), validarPassword()">
+            <input class="sendbtn" id="sendbtn" type="button" value="Enviar" onclick= "validarNombre(), validarPassword()">
           </form>
         </div>
       </div>
-    </div> <!-- Fin container -->
-    <div class="container text-center">
       <div class="row">
         <div class="col-xs-12 col-md-4"></div>
         <div class="col-xs-12 col-md-4">
           <button type="button" name="button" class="btn btn-default">
-            <i class="fa fa-2x fa-book" aria-hidden="true"></i></button>
+            <i class="fa fa-3x fa-github" aria-hidden="true"></i></button>
           <button type="button" name="button" class="btn btn-default">
-            <i class="fa fa-2x fa-github" aria-hidden="true"></i></button>
+            <i class="fa fa-3x fa-book" aria-hidden="true"></i></button>
           <button type="button" name="button" class="btn btn-default">
-            <i class="fa fa-2x fa-cog" aria-hidden="true"></i></button>
+            <i class="fa fa-3x fa-cog" aria-hidden="true"></i></button>
         </div>
         <div class="col-xs-12 col-md-4"></div>
       </div>
-    </div>
-    <div class="section container-fuid">
-      <div class="row text-center">
-        <h3>Instalación</h3>
-      </div>
-      <div class="row text-center">
-      </div>
-    </div>
+    </div> <!-- Fin container -->
+    <div class="sectionSecond container-fuid">
+      <div class="row text-center"></div>
 
+<!-- script -->
 <script type="text/javascript" src="assets/libreria/js/name-app.js"></script>
 <script type="text/javascript" src="assets/libreria/js/password-app.js"></script>
+<script type="text/javascript" src="assets/demo/js/demo.js"></script>
   </body>
 </html>
