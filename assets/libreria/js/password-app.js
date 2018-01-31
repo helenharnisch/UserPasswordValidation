@@ -9,7 +9,11 @@ const validarPassword = () => {
     document.getElementById('texto2').innerHTML = texto;
     return false;
   } else if (password.length < 3) {
-    texto = 'Su contraseña tiene que ser mayor o igual a 3 caracteres';
+    texto = 'Su contraseña tiene que ser mayor a 3 caracteres ';
+    document.getElementById('texto2').innerHTML = texto;
+    return false;
+  } else if (password.length > 7 ) {
+    texto = 'Su contraseña tiene que ser menor a 7 caracteres ';
     document.getElementById('texto2').innerHTML = texto;
     return false;
   } else if (!expresion.test(password)) {
