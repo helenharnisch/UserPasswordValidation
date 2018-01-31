@@ -7,8 +7,12 @@ describe('Password', () => {
     expect().to.not.equal(null);
   });
 
-  it('El valor es mayor a tres caracteres', () => {
+  it('El valor es mayor a 3 caracteres', () => {
     expect(3).to.not.be.below(3);
+  });
+
+  it('El valor es menor a 7 caracteres', () => {
+    expect(7).to.not.be.above(7);
   });
 
   it('No ingresó letras ni caracteres especiales', () => {
