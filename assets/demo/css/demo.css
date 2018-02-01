@@ -15,12 +15,12 @@ body {
 }
 
 .texto, .texto2 {
-  color: red;
+border-radius: 3px;
   font-size: 16px;
   font-family: helvetica;
 }
 
-h1 {
+.sectionFirst h1 {
   margin: 0;
   padding-top: 40px;
   padding-bottom: 30px;
@@ -34,13 +34,12 @@ h3 {
 
 .form {
   padding: 40px 70px;
-  margin-top: 100px;
+  margin-top: 90px;
   margin-bottom: 10px;
   background-color: #09687d;
   border-radius: 10px;
   display: inline-block;
 }
-
 
 .nombre {
   margin-top: 20px;
@@ -63,17 +62,17 @@ h3 {
 .sendbtn {
   margin-top: 30px;
   margin-bottom: 10px;
-  background-color: #000;
+  background-color: #484b4d;
   color: #fff;
-  border: 1px solid #fff;
   border-radius: 3px;
-  padding: 10px 15px;
+  padding: 12px 20px;
   outline: none;
+  border: none;
+  font-size: 16px;
 }
 
 .sendbtn:hover {
   background-color: #4b6abf;
-  border: 1px solid #4b6abf;
 }
 
 .fa {
@@ -88,4 +87,17 @@ h3 {
 
 .sectionSecond {
   margin-top: 15px;
+}
+
+.contenedor {
+  background-color: #d3d5d9;
+  height: auto;
+  width: auto;
+  border-radius: 6px;
+  padding: 10px;
+}
+
+img {
+  height: 150px;
+  width: auto;
 }
