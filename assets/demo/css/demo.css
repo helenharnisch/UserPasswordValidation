@@ -1,15 +1,31 @@
 body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
 
+.sectionFirst {
+  height: 660px;
+  background: #86e3ad;
+  background: #00dbbe; /* Old browsers */
+  background: -moz-linear-gradient(left, #00dbbe 0%, #4b6abf 100%, #e1ffff 100%, #e1ffff 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, #00dbbe 0%,#4b6abf 100%,#e1ffff 100%,#e1ffff 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, #00dbbe 0%,#4b6abf 100%,#e1ffff 100%,#e1ffff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00dbbe', endColorstr='#e1ffff',GradientType=1 ); /* IE6-9 */
 }
 
 .texto, .texto2 {
-  color :red;
+border-radius: 3px;
+  font-size: 16px;
+  font-family: helvetica;
 }
 
-h1 {
-  margin-top: 30px;
-  font-size: 40px;
-  color: grey;
+.sectionFirst h1 {
+  margin: 0;
+  padding-top: 40px;
+  padding-bottom: 30px;
+  font-size: 50px;
+  color: #fff;
 }
 
 h3 {
@@ -17,44 +33,71 @@ h3 {
 }
 
 .form {
-  padding: 10px;
-  margin-top: 30px;
+  padding: 40px 70px;
+  margin-top: 90px;
   margin-bottom: 10px;
-  border: 1px solid #b6bbb8;
+  background-color: #09687d;
   border-radius: 10px;
   display: inline-block;
 }
 
-#nombre {
+.nombre {
   margin-top: 20px;
-  margin-bottom: 20px;
-  padding: 5px 10px;
+  padding: 15px 20px;
+  width: 300px;
   border-radius: 6px;
   border: 1px solid #b6bbb8;
+  outline: none;
 }
 
-#contraseña {
-  padding: 5px 10px;
+.contraseña {
+  padding: 15px 20px;
+  width: 300px;
   border-radius: 6px;
   border: 1px solid #b6bbb8;
+  margin-top: 25px;
+  outline: none;
 }
 
-#sendbtn {
-  margin-top: 20px;
+.sendbtn {
+  margin-top: 30px;
   margin-bottom: 10px;
-  background-color: #c81b98;
+  background-color: #484b4d;
   color: #fff;
-  border: none;
   border-radius: 3px;
-  padding: 5px 10px;
+  padding: 12px 20px;
+  outline: none;
+  border: none;
+  font-size: 16px;
+}
+
+.sendbtn:hover {
+  background-color: #4b6abf;
 }
 
 .fa {
-  margin: 3px;
+  margin: 5px;
+  color: #484b4d;
 }
 
-.section {
+.btn-default {
+  border: none;
+  margin: 5px;
+}
+
+.sectionSecond {
   margin-top: 15px;
-  background-color: #c81b98;
-  height: 300px;
+}
+
+.contenedor {
+  background-color: #d3d5d9;
+  height: auto;
+  width: auto;
+  border-radius: 6px;
+  padding: 10px;
+}
+
+img {
+  height: 150px;
+  width: auto;
 }
