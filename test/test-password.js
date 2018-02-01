@@ -1,5 +1,5 @@
 const expect = require('chai').expect;
-const name = require('../assets/libreria/js/password-app.js');
+const name = require('../index.js');
 describe('Password', () => {
   it('El campo no debe estar vacío', () => {
     expect().not.to.be.a('');

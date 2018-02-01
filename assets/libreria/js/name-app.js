@@ -1,7 +1,7 @@
 'use strict';
 
-const validarNombre = () => {
-  let usuario = document.getElementById('nombre').value;
+const validateUser = () => {
+  let usuario = document.getElementById('user').value;
   let texto;
   let expresion = /[a-zA-Z]/;
 
@@ -18,9 +18,8 @@ const validarNombre = () => {
     document.getElementById('texto').innerHTML = texto;
     return false;
   }
-  document.getElementById('nombre').value = '';
+  document.getElementById('user').value = '';
   document.getElementById('texto').innerHTML = '';
 };
 
-
-module.exports = validarNombre;
+module.exports = validateUser;
