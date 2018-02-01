@@ -3,50 +3,88 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="assets\demo\img\favicon.png" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/demo/css/demo.css">
     <script src="https://use.fontawesome.com/f8bd552b09.js"></script>
     <title>FormValidation</title>
   </head>
   <body>
-    <div class="container text-center">
-      <h1>FormValidation</h1>
+    <div class="sectionFirst container-fuid text-center">
       <div class="form row">
         <div class="col-xs-12">
-          <div class="texto" id="texto"></div>
+          <h1>FormValidation</h1>
           <!-- Formulario -->
           <form>
-            <input type="text" id="nombre" placeholder="Usuario">
+            <input class="nombre" type="text" id="user" placeholder="Usuario">
+            <div class="texto" id="texto"></div>
+            <input class="contraseña" type="password" id="password" placeholder="Contraseña"><br>
             <div class="texto2" id="texto2"></div>
-            <input type="password" id="contraseña" placeholder="Contraseña"><br>
-            <input id="sendbtn" type="button" name="" value="Enviar" onclick= "validarNombre(), validarPassword()">
+            <input class="sendbtn" id="sendbtn" type="button" value="Enviar" onclick= "validateUser(), validatePassword()">
           </form>
         </div>
       </div>
-    </div> <!-- Fin container -->
-    <div class="container text-center">
       <div class="row">
         <div class="col-xs-12 col-md-4"></div>
         <div class="col-xs-12 col-md-4">
           <button type="button" name="button" class="btn btn-default">
-            <i class="fa fa-2x fa-book" aria-hidden="true"></i></button>
+            <i class="fa fa-3x fa-github" aria-hidden="true"></i></button>
           <button type="button" name="button" class="btn btn-default">
-            <i class="fa fa-2x fa-github" aria-hidden="true"></i></button>
+            <i class="fa fa-3x fa-book" aria-hidden="true"></i></button>
           <button type="button" name="button" class="btn btn-default">
-            <i class="fa fa-2x fa-cog" aria-hidden="true"></i></button>
+            <i class="fa fa-3x fa-cog" aria-hidden="true"></i></button>
         </div>
         <div class="col-xs-12 col-md-4"></div>
       </div>
-    </div>
-    <div class="section container-fuid">
-      <div class="row text-center">
-        <h3>Instalación</h3>
+    </div> <!-- Fin container -->
+    <div class="sectionSecond container">
+      <div class="row">
+        <div class="col-xs-12 col-md-12">
+          <h1>Librería FormValidation</h1>
+          <p>FormValidation es una librería para la validación de los campos de formulario por parte del cliente.
+            FormValidation es para verificar que las entradas son del tipo correcto y que estén completas con datos, antes de que el formulario sea enviado.
+            Los campos de formulario son una tarea de programación necesaria, aunque muchas veces es un proceso molesto.
+            En javascript facilitan la programación y mejora la interfaz del usuario. Esto te ahorrará una tarea importante.</p>
+        </div>
       </div>
-      <div class="row text-center">
+      <div class="row">
+        <div class="col-xs-12 col-md-12">
+          <h1>Instalación</h1>
+          <div class="contenedor"></div>
+        </div>
       </div>
-    </div>
+      <div class="row">
+        <div class="col-xs-12 col-md-12">
+          <h1>Uso</h1>
+          <p>Despues de la instalación, crear un formulario o dos input con id respectivo mas un boton (como el ejemplo),
+          en nuestro documento HTML</p>
+          <div class="contenedor"><img src="assets\demo\img\form.png" alt="codigo"></div>
+          <p>Primero, enlace javascript en la página.</p>
+          <div class="contenedor"><img src="assets\demo\img\script.png" style="height:40px;width: auto;" alt="codigo"></div>
+          <p>Ahora, adjunte validateUser al campo de texto. </p>
+          <div class="contenedor"><img src="assets\demo\img\funcion-user.png" style="height:500px;width: auto;" alt="codigo"></div>
+          <p>Ahora, adjunte validatePassword al campo de texto. </p>
+          <div class="contenedor"><img src="assets\demo\img\funcion-password.png" style="height:600px;width: auto;" alt="codigo"></div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 col-md-12">
+          <h1>Uso en Node.js</h1>
+          <div class="contenedor"></div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 col-md-12">
+          <h1>Test</h1>
+          <p>FormValidation se prueba con Mocha. Ejecutar mocha test-name.js o mocha test-password.js
+            desde la línea de comando para ejecutar el banco de pruebas.</p>
+          <div class="contenedor"></div>
+        </div>
+      </div>
 
+<!-- script -->
 <script type="text/javascript" src="assets/libreria/js/name-app.js"></script>
 <script type="text/javascript" src="assets/libreria/js/password-app.js"></script>
+<script type="text/javascript" src="assets/demo/js/demo.js"></script>
   </body>
 </html>
