@@ -9,7 +9,7 @@
 ## Instalación
 > Instalado node.js , procederemos a descargar los archivos de la librería mediante:
 ```sh
-$ npm install user/password_validation
+$ npm install userpasswordvalidation
 ```
 
 ## Uso
