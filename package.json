@@ -1,5 +1,5 @@
 {
-  "name": "user/password_validator",
+  "name": "user/password_validation",
   "version": "1.0.0",
   "description": "A Password and User Validator",
   "main": "index.js",
@@ -13,7 +13,7 @@
   "keywords": [
     "library" "form validator" "user validator" "password validator"
   ],
-  "author": "Helen Harnish" "Daniela Parraguez",
+  "author": "Helen Harnisch" "Daniela Parraguez",
   "license" : {
   "type" : "MIT" ,
   "url" : "https://www.opensource.org/licenses/mit-license.php"
