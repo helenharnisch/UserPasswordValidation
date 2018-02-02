@@ -1,5 +1,4 @@
 'use strict';
-
 const validatePassword = () => {
   let password = document.getElementById('password').value;
   let texto;
