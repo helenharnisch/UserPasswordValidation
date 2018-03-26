@@ -1,9 +1,14 @@
+# Librería User/Password_Validation
+
+![libreria](https://user-images.githubusercontent.com/32281399/37919361-0789bcc0-30fa-11e8-88dc-c06c76c03130.png)
+
+
 [![Sourcegraph for Repo Reference Count](https://img.shields.io/badge/Release%20Date-February-brightgreen.svg?style=flat-square)]()
 
-# Librería User/Password_Validation 
+## Librería User/Password_Validation
 
 * User/Password_Validation es una librería para la validación de los campos de formulario por parte del cliente, verifica que las entradas sean del tipo correcto y que esten completas con datos, antes que el formulario sea enviado.
-* Los campos de formulario son una tarea de programación necesaria, aunque muchas veces es un proceso molesto. 
+* Los campos de formulario son una tarea de programación necesaria, aunque muchas veces es un proceso molesto.
 * En javascript facilitan la programación y mejora la interfaz del usuario. Esto te ahorrará una tarea importante.
 
 ## Instalación
