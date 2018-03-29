@@ -57,3 +57,5 @@ $ npm install userpasswordvalidation
 * Slack fue utilizado para mantener la comunicación entre el equipo.
 * Se utilizó el método SCRUM para mantener una buena organización y mejorar los tiempos de entrega del producto.
 * Se utilizaron ISSUES y MILESTONES en GITHUB para definir tareas , encargados y plazos para finalizar.
+
+## Desarrollado para [Laboratoria](http://laboratoria.la)
